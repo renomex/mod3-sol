@@ -1,0 +1,108 @@
+   *{
+   	 box-sizing: border-box;
+     margin: 0; 
+     padding: 0;
+     font-family: arial, helvetica, sans-serif;
+     font-size: 100%;
+    }
+
+   /* Header */
+   #header-nav {
+	background-color: #56b325;
+	border-radius: 0;
+	border: 0;
+	height: 60px;
+	margin-bottom: 40px;
+   }
+
+.navbar-brand h1 { /* NOMBRE DE MARCA */
+  padding-top: 10px;
+  font-family: helvetica;
+  color: #557c3e;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+ 
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #56b325;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  font-size: 1.7em;
+}
+
+#nav-list a span {
+}
+
+
+   /* BASE STYLES */
+   h1{
+     padding-top: 80px;
+     font-size: 1.75em;
+     color: black;   
+   }
+   h2 {
+   	 text-align: center;
+   	 width: 100%;
+   	 height: auto;
+     font-size: 1.25em;
+   }
+
+   /* CONTAINERS OF EACH SECTION */
+   div#container1 {
+   	 position: relative;
+   	 border: 0;
+   	 background-color: #DBA901;
+   	 width: 100%;
+   	 height: 700px;
+   	 margin-right: 15px;
+   	 margin-left: 15px;
+   	 margin-bottom: 30px;
+   	 margin-top: 40px;
+   	 padding: 10px 20px 10px 20px;
+   	 color: black; 
+   }
+   div#container2 {
+   	 position: relative;
+   	 border: 0;
+   	 background-color: #580B05;
+   	 width: 100%;
+   	 height: 700px;
+   	 margin-right: 15px;
+   	 margin-left: 15px;
+   	 margin-bottom: 30px;
+   	 padding: 10px 20px 10px 20px;
+   	 color: white;   
+   }
+   div#container3 {
+   	 position: relative;
+	 border: 0;
+   	 background-color: #0081C2;
+   	 width: 100%;
+   	 height: 700px;
+   	 margin-right: 15px;
+   	 margin-left: 15px;
+   	 margin-bottom: 30px;
+   	 padding: 10px 20px 10px 20px;
+   	 color: black; 
+   }
+ 
+   /* SIMPLE RESPONSIVE FRAMEWORK */
+   .row{
+   	 width: 100%;
+   }
